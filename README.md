@@ -12,7 +12,9 @@ teaching-script/
 player-aid/
   captain-sonar-player-aid.pdf       One-page US Letter reference, one copy per seat
   source/
-    build.py                         Builds the PDF from HTML (Playwright + Chromium)
+    build.py                         Inlines fonts and icons, renders the PDF (Playwright + Chromium)
+    template.html                    Page content; previews directly in a browser
+    style.css                        Page styles
     extract_icons.py                 Re-crops icons from the rulebook PDF
     icons/                           Role and system icons cropped from the rulebook
     wf/f.css                         Google Fonts stylesheet (Exo 2, Share Tech Mono)
@@ -33,7 +35,7 @@ cd player-aid/source
 python build.py          # writes ../captain-sonar-player-aid.pdf
 ```
 
-`build.py` downloads the fonts from Google Fonts at build time and embeds them. To re-crop the icons, run `python extract_icons.py <rulebook.pdf>` first.
+To iterate on layout, open `template.html` in a browser (needs internet for the fonts). `build.py` downloads the fonts from Google Fonts at build time and embeds them. To re-crop the icons, run `python extract_icons.py <rulebook.pdf>` first.
 
 ## Accuracy
 

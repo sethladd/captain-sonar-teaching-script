@@ -1,0 +1,41 @@
+Captain Sonar Teaching Kit — License
+=====================================
+
+This repository contains two distinct kinds of content, licensed differently.
+
+1. Original teaching-kit content
+---------------------------------
+
+The teaching script, player-aid layout/design, and build scripts created for
+this kit (including but not limited to `teaching-script/`, `player-aid/source/build.py`,
+`player-aid/source/extract_icons.py`, and the written wording of
+`player-aid/captain-sonar-player-aid.pdf`) are © Seth Ladd and are licensed
+under the Creative Commons Attribution-ShareAlike 4.0 International License
+(CC BY-SA 4.0).
+
+You are free to:
+  - Share — copy and redistribute the material in any medium or format
+  - Adapt — remix, transform, and build upon the material for any purpose,
+    even commercially
+
+Under the following terms:
+  - Attribution — You must give appropriate credit, provide a link to the
+    license, and indicate if changes were made.
+  - ShareAlike — If you remix, transform, or build upon the material, you
+    must distribute your contributions under the same license as the
+    original.
+
+Full license text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+2. Captain Sonar game content
+------------------------------
+
+Captain Sonar, its name, rules, and iconography are © 2022 Matagot. The
+icons in `player-aid/source/icons/` are cropped directly from the official
+rulebook and are reproduced here solely as an unofficial fan aid for
+teaching the game. This game content is NOT covered by the CC BY-SA license
+above, is not licensed by Matagot, and remains the property of its
+respective owner. All rights to Captain Sonar are reserved by Matagot.
+
+This kit is unofficial, non-commercial fan material and is not affiliated
+with or endorsed by Matagot.
